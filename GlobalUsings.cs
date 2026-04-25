@@ -1,0 +1,16 @@
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;
+global using Ebank.API.Services;
+global using Ebank.API.Entities;
+global using Ebank.API.Dtos;
+global using Ebank.API.Repositories;
+global using Ebank.API.Data;
+global using Microsoft.OpenApi;
+global using System.IdentityModel.Tokens.Jwt;
+global using System.Security.Claims;
+global using System.Text;
+global using Microsoft.IdentityModel.Tokens;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Authentication.JwtBearer;
+global using Microsoft.AspNetCore.Mvc.Controllers;
+global using Scalar.AspNetCore;

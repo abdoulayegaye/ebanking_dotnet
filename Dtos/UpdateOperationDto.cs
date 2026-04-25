@@ -1,0 +1,1 @@
+public record UpdateOperationDto(TypeOperation Type, double Amount);

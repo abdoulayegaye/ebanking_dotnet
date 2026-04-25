@@ -1,8 +1,5 @@
-namespace Ebank.API.Entities;
-using Ebank.API.Entities;
 public class Account : BaseEntity
 {
-    public long Id { get; set; }
     public string Numero { get; set; } = string.Empty;
     public double Balance { get; set; }
     public string Currency { get; set; } = string.Empty;
