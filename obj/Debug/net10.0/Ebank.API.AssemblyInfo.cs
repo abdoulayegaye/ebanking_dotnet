@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ebank.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e25e134c408f7b783ac0e929be4f7a305ae3a15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8025e8c0dae670eceb98b709479e661c62efa8f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ebank.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ebank.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

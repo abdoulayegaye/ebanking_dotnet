@@ -98,7 +98,7 @@ builder.Services.AddOpenApi();
 // Finalise la configuration et crée l'application
 // Après ce point, on ne peut plus ajouter de services
 var app = builder.Build();
-
+app.MapGet("/", () => "Hello World!");
 // ════════════════════════════════════════════════════════════════════════════
 // PIPELINE DES MIDDLEWARES — L'ORDRE EST CRITIQUE
 // Chaque requête HTTP traverse ces middlewares dans cet ordre exact
